@@ -57,9 +57,9 @@ var funName = function (a, b) {
 // };demoName();
 
 
-// let demoNameTwo = name => {
-//     console.log('If single params used')
-// }; demoNameTwo()
+let demoNameTwo = name => {
+    console.log('If single params used')
+}; demoNameTwo()
 
 /* 
 let addMe = (a,b) => {
