@@ -61,10 +61,10 @@ let demoNameTwo = name => {
     console.log('If single params used')
 }; demoNameTwo()
 
-/* 
+
 let addMe = (a,b) => {
     return a + b;
-};console.log(addMe(10, 19)); */
+};console.log(addMe(10, 19));
 
 /* let addMeTwo = (a,b) => a+b;
 console.log(addMeTwo(10,55))
