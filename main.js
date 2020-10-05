@@ -41,7 +41,7 @@ function demo() {
 /*=========================
 Arrow Funtion using 
 ============================*/
-
+/* 
 function name() {
     console.log("Jp");
 }name()
@@ -81,7 +81,7 @@ let addMeTwo = (a,b) => a+b;
 console.log(addMeTwo(10,55))
 
 let sqr = x => x*x;
-console.log(sqr(10))
+console.log(sqr(10)) */
 
 
 
@@ -123,4 +123,38 @@ const obj3 = {
     }
 }
 obj3.print()
- */
+*/
+
+
+
+
+/*========================
+Enhance Object Js
+===========================*/
+
+let name ="jowel";
+let age  = "24";
+
+const enhObje = {
+
+    name,
+    age,
+
+    print() {
+        console.log("Name: " + this.name + " Age: " + this.age)
+    }
+    
+}
+enhObje.print()
+
+console.log(enhObje);
+
+
+
+
+
+
+
+
+
+
