@@ -164,7 +164,7 @@ let [a, b, c, d, e] = arr;
 console.log(a)
 console.log(b)
 */
-
+/* 
 
 const objDestrc = {
     name: "jowel",
@@ -188,11 +188,54 @@ let y = ({name, email}) => {
 }
 
 y({ email, name })
+ */
 
 
 
 
+ 
+/* =============================
+Rest and Spread Operator
+=============================== */
 
+
+// Rest Operator
+
+
+// Normal var number ke array te porinoto kora  
+/* function sum(...num){  
+    console.log(num);
+}
+sum(1, 6 , 6);
+ 
+*/
+
+
+
+/*==========================
+// Sprad Operator
+ ===========================*/
+
+// array ba object er propartis ke be vaiabls hoy jaye 
+
+
+/* let arr = [1,3, 4, 5];
+arr = [...arr, 12, 3, 45]
+console.log(arr);
+
+var obj = {
+    name: "jowel",
+    email: "patwaryjowel52@gmail.com"
+};
+
+var obj2 = {
+    ...obj,
+    name: "patwary",
+    age: 23,
+    birt: 1997
+};
+
+console.log(obj2); */
 
 
 
