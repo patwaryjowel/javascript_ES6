@@ -38,17 +38,18 @@ function demo() {
 }demo(); */
 
 
-/* ===== Arrow Funtion using ===== */
+/*=========================
+Arrow Funtion using 
+============================*/
 
-/* function name() {
+function name() {
     console.log("Jp");
 }name()
 
 var funName = function (a, b) {
     return a + b;
-};console.log(funName(30, 10))*/
+};console.log(funName(30, 10))
 
-/* 
 
 let demoName = () => {
     console.log('HEllo');
@@ -73,14 +74,14 @@ console.log(jowelArrowFunction(10,10))
 const jowelArrowFunction = () => {
     console.log("hello jowel")
 };
-jowelArrowFunction()*/
+jowelArrowFunction()
 
 
-/* let addMeTwo = (a,b) => a+b;
+let addMeTwo = (a,b) => a+b;
 console.log(addMeTwo(10,55))
- */
-/* let sqr = x => x*x;
-console.log(sqr(10)) */
+
+let sqr = x => x*x;
+console.log(sqr(10))
 
 
 
