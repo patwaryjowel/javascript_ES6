@@ -1,6 +1,4 @@
 
-  
-console.log('Hello Jowel');
 /* =====================================
     ES6 let & const using 
 ===================================*/
@@ -50,7 +48,7 @@ var funName = function (a, b) {
     return a + b;
 };console.log(funName(30, 10))*/
 
-
+/* 
 
 let demoName = () => {
     console.log('HEllo');
@@ -75,9 +73,7 @@ console.log(jowelArrowFunction(10,10))
 const jowelArrowFunction = () => {
     console.log("hello jowel")
 };
-jowelArrowFunction()
-
-
+jowelArrowFunction()*/
 
 
 /* let addMeTwo = (a,b) => a+b;
@@ -86,3 +82,44 @@ console.log(addMeTwo(10,55))
 /* let sqr = x => x*x;
 console.log(sqr(10)) */
 
+
+
+/*=============================
+    Laxical this
+================================*/
+
+// ES5 er this call widoaw object
+/* const obj = {
+    name: "jowel",
+    print: function (){
+        setTimeout(function(){
+            console.log(this)
+        }.bind(this),1000);
+        console.log(this.name, this)
+    }
+}
+obj.print() */
+
+/* // ES6 this here perent div 
+const obj2 = {
+    name: "patwary",
+    print: function (){
+        setTimeout(() => {
+            console.log(this.name)
+        },1000);
+    }
+}
+obj2.print()
+
+
+// ES5  same exam and problem 
+const obj3 = {
+    name: "patwary",
+    print: function (){
+        setTimeout( function() {
+            console.log(this.name)
+        },1000);
+    }
+}
+obj3.print()
+ */
