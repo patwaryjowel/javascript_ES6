@@ -52,9 +52,9 @@ var funName = function (a, b) {
 
 
 
-// let demoName = () => {
-//     console.log('HEllo');
-// };demoName();
+let demoName = () => {
+    console.log('HEllo');
+};demoName();
 
 
 let demoNameTwo = name => {
