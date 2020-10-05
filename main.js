@@ -66,6 +66,20 @@ let addMe = (a,b) => {
     return a + b;
 };console.log(addMe(10, 19));
 
+
+const jowelArrowFunction = (a, b) => {
+    return a+b;
+};
+console.log(jowelArrowFunction(10,10))
+
+const jowelArrowFunction = () => {
+    console.log("hello jowel")
+};
+jowelArrowFunction()
+
+
+
+
 /* let addMeTwo = (a,b) => a+b;
 console.log(addMeTwo(10,55))
  */
