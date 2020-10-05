@@ -131,8 +131,13 @@ obj3.print()
 /*========================
 Enhance Object Js
 ===========================*/
+<<<<<<< HEAD
 
 /* let name ="jowel";
+=======
+/*
+let name ="jowel";
+>>>>>>> 61438a4c600f4d05f6fcd339fc03a97ad70da143
 let age  = "24";
 
 const enhObje = {
@@ -147,8 +152,13 @@ const enhObje = {
 }
 enhObje.print()
 
+<<<<<<< HEAD
 console.log(enhObje); */
 
+=======
+console.log(enhObje);
+*/
+>>>>>>> 61438a4c600f4d05f6fcd339fc03a97ad70da143
 
 
 
