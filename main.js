@@ -132,7 +132,7 @@ obj3.print()
 Enhance Object Js
 ===========================*/
 
-let name ="jowel";
+/* let name ="jowel";
 let age  = "24";
 
 const enhObje = {
@@ -147,9 +147,47 @@ const enhObje = {
 }
 enhObje.print()
 
-console.log(enhObje);
+console.log(enhObje); */
 
 
+
+
+/*========================================
+Destrcturing Array And Object Details
+==========================================*/
+
+/* 
+const arr = [1, 2, 3, 4, 5]
+
+let [a, b, c, d, e] = arr;
+
+console.log(a)
+console.log(b)
+*/
+
+
+const objDestrc = {
+    name: "jowel",
+    email: "patwaryjowel@gmail.com"
+}
+
+let {name, email} = objDestrc;
+
+console.log("Name: ", name, "Email: ", email)
+
+
+let x = (name, email) => {
+    console.log(`Hello this is ${name}. Email: ${email}`)
+}
+
+x(name, email )
+
+// vale age pore jabe na jekhane chai okhnai thakbe
+let y = ({name, email}) => {
+    console.log(`Hello this is ${name}. Email: ${email}`)
+}
+
+y({ email, name })
 
 
 
